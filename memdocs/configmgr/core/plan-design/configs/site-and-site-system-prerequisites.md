@@ -112,6 +112,31 @@ For more information on all prerequisites including permissions, see [Prerequisi
 
 - When you use a software update point on a server other than the site server, install the WSUS Administration Console on the site server.
 
+- If you are installing as an independent primary site server you will also need the following:
+-   IIS configuration
+Common HTTP Features:
+
+Default Document
+
+Static Content
+
+Application Development:
+
+ASP.NET 3.5 (and automatically selected options)
+
+ASP.NET 4.5 (and automatically selected options)
+
+.NET Extensibility 3.5
+
+.NET Extensibility 4.5
+
+Security:
+
+Windows Authentication
+IIS 6 Management Compatibility:
+
+IIS 6 Metabase Compatibility
+
 ### .NET Framework for the site server
 
 - Enable the Windows feature for .NET Framework 3.5.
